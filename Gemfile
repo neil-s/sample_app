@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.1.2'
 
-gem 'rails', '4.0.8'
+gem 'rails', '4.1.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
@@ -19,7 +19,7 @@ gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
-gem 'heroku_secrets', git: 'https://github.com/alexpeattie/heroku_secrets.git'
+# gem 'heroku_secrets', git: 'https://github.com/alexpeattie/heroku_secrets.git'
 
 
 group :doc do
